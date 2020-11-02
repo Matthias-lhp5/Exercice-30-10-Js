@@ -1,18 +1,11 @@
-var number = 2
+var number = prompt(number)
 
-function testNum(number) {
+function testNum(a) {
     let result;
-    if (number > 0) {
-      result = 'positive';
-    } else {
-      result = 'NOT positive';
+    if (a > 21) {
+      result = 'Affichage de message';
     }
     return result;
-
-    console.log(result);
   }
   
-  console.log(testNum);
-
-
-  dsfsdf
+  alert(testNum(number));

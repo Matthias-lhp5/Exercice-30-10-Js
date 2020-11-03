@@ -1,41 +1,41 @@
 //Exercice 1 : Donner la taille de la chaîne de caractères.
 let stringLength = function (sentence) {
-  return 'A compléter';
+  return sentence.length;
 }
 
 //Exercice 2 : Remplacer le premier "e" de la chaîne par un espace.
 let replaceFirstEBySpace = function (sentence) {
-  return 'A compléter';
+  return sentence.replace('e', ' ');
 }
 
 //Exercice 3 : Concaténer les deux chaînes de caractères.
 let concatenateSentences = function (firstSentence, secondSentence) {
-  return 'A compléter';
+  return firstSentence + secondSentence;
 }
 
 //Exercice 4 : Afficher le cinquième caractère de la chaîne.
 let displayFifthCharacter = function (sentence) {
-  return 'A compléter';
+  return sentence.charAt(4);
 }
 
 //Exercice 5 : Afficher les 9 premiers caractère.
 let displayFirstNineCharacters = function (sentence) {
-  return 'A compléter';
+  return sentence.substr(0, 9);
 }
 
 //Exercice 6 : Mettre en majuscule la chaîne.
 let upperTheSentence = function (sentence) {
-  return 'A compléter';
+  return sentence.toUpperCase();
 }
 
 //Exercice 7 : Mettre en minuscule la chaîne.
 let lowerTheSentence = function (sentence) {
-  return 'A compléter';
+  return sentence.toLowerCase();
 }
 
 //Exercice 8 : Supprimer les espaces avant et après la chaîne.
 let removeSpaces = function (sentence) {
-  return 'A compléter';
+  return sentence.trim();
 }
 
 //Exercice 9 : Afficher true si le paramètre d'entrée de la fonction est de type *string*.
@@ -50,7 +50,7 @@ let displayExtension = function (fileName) {
 
 //Exercice 11 : Compter le nombre d'espace dans la chaîne.
 let countSpaces = function (sentence) {
-  return 'A compléter';
+  return sentence.indexOf("");
 }
 
 //Exercice 12 : Inverser une chaîne de caractères.

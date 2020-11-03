@@ -40,27 +40,28 @@ let removeSpaces = function (sentence) {
 
 //Exercice 9 : Afficher true si le paramètre d'entrée de la fonction est de type *string*.
 let isString = function (sentence) {
-  return 'A compléter';
+  return (typeof sentence === "string") ? true : false;
 }
 
 //Exercice 10 : Afficher l'extension du fichier.
 let displayExtension = function (fileName) {
-  return 'A compléter';
+  return fileName.slice(fileName.lastIndexOf(".")+1);
+  /* return (fileName.split('.').pop()); */
 }
 
 //Exercice 11 : Compter le nombre d'espace dans la chaîne.
 let countSpaces = function (sentence) {
-  return sentence.indexOf("");
+  return sentence.match(/[ ]/g).length;
 }
 
 //Exercice 12 : Inverser une chaîne de caractères.
 let invertSentence = function (sentence) {
-  return 'A compléter';
+  return sentence.split('').reverse().join('');
 }
 
 //Exercice 13 : Chercher si dans la chaîne de caractère se trouve "La Manu".
 let searchInSentence = function (sentence) {
-  return 'A compléter';
+  return sentence.includes('La Manu');
 }
 
 //Exercice 14 : Afficher la valeur absolue d'un nombre.

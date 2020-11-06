@@ -1,13 +1,18 @@
-var number = prompt('Entrez votre age')
+function verifyPassword()
+{
 
-function testNum(a) {
-    let result;
-    if (a >= 18) {
-      result = 'Vous êtes majeur';
-    } else {
-      result = 'Vous êtes mineur';
-    }
-    return result;
-  }
-  
-  alert(testNum(number));
+    let password = document.getElementById("password");
+    let confirmPassword = document.getElementById("confirmPassword");
+
+    if ( password.value == confirmPassword.value )
+    {
+        password.className="borderGreen";
+        confirmPassword.className="borderGreen";
+    }   
+        else 
+        {
+            password.className="borderRed";
+            confirmPassword.className="borderRed";
+        }
+
+}

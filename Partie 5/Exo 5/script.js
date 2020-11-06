@@ -1,28 +1,14 @@
-let day = Math.floor(Math.random() * 7) + 1;
-let dayStr = "";
+function buttonClickColor (a){
 
-switch (day) {
-    case 1:
-        dayStr = "Lundi";
-        break;
-    case 2:
-        dayStr = "Mardi";
-        break;
-    case 3:
-        dayStr = "Mercredi";
-        break;
-    case 4:
-        dayStr = "Jeudi";
-        break;
-    case 5:
-        dayStr = "Vendredi";
-        break;
-    case 6:
-        dayStr = "Samedi";
-        break;
-    case 7:
-        dayStr = "Dimanche";
-        break;
-}
+    document.getElementById('paragraphe').style.color=a;
+};
 
-alert("Random day numéro " + day + " " + dayStr);
+function buttonClickStyle (a){
+
+    document.getElementById('paragraphe').style.fontStyle=a;
+};
+
+function buttonClickWeight (a){
+
+    document.getElementById('paragraphe').style.fontWeight=a;
+};

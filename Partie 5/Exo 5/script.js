@@ -1,14 +1,14 @@
 function buttonClickColor (a){
 
-    document.getElementById('paragraphe').style.color=a;
+    document.getElementById('paragraphe').toggle.style.color=a;
 };
 
 function buttonClickStyle (a){
 
-    document.getElementById('paragraphe').style.fontStyle=a;
+    document.getElementById('paragraphe').toggle.style.fontStyle=a;
 };
 
 function buttonClickWeight (a){
 
-    document.getElementById('paragraphe').style.fontWeight=a;
+    document.getElementById('paragraphe').toggle.style.fontWeight=a;
 };

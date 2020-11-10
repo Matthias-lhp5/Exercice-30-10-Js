@@ -1,10 +1,10 @@
-function focusFormulaire (a){
+function focusFormulaire (element){
 
-    document.getElementById(a).style.borderColor='black'
+    element.style.border = "6px solid red";
 
 }
 
-function blurFormulaire (a){
+function blurFormulaire (element){
 
-    document.getElementById(a).removeAttribute('style','borderColor')
+    element.style.border = "";
 }

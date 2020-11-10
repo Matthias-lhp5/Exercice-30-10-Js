@@ -1,7 +1,9 @@
-let form = document.getElementById('formulaire')
-
-let clonage = form.cloneNode(true)
+let parent = document.getElementById('user')
 
 function clonage(){
-    document.getElementById('submitButton').clonage
+
+    let aRecup = document.getElementById('aRecup')
+    let aRecupClonage = aRecup.cloneNode(true)
+
+    parent.appendChild(aRecupClonage);
 }
